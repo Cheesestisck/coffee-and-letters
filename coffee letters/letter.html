@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>coffee & letters</title>
+</head>
+<body>
+        <h2 class="page">submit a letter</h2>
+        <p id="today"></p>
+        
+    <form id="form">
+    
+        <div class="prompt-box">
+            <p class="prompt-title">Today's Prompt</p>
+            <p id="promptz"></p>
+        </div>
+
+        <label for="title" id="who">Title</label>
+            <input
+                type="text"
+                id="title"
+                maxlength="50"
+                required>
+
+        <label for="text" id="Letter">Letter</label>
+        <textarea id="text" required></textarea>
+        <p id="counter">0 / 100 words</p>
+        
+        <button id="submit" type="submit">
+            <span id="buttonText">Submit Letter</span>
+        </button>
+
+    </form>
+    <script src="script.js" defer></script>
+</body>
+</html>

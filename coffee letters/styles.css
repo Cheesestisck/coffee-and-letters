@@ -1,0 +1,206 @@
+*{
+    font-family: handwritten;
+}
+
+@font-face {
+    font-family: handwritten;
+    src: url(Handwritten_Nat29/Handwritten_Nat29_Font.ttf);
+}
+
+body{
+    color: rgb(97, 75, 5);
+    text-align: center;
+    background-image: radial-gradient(circle, rgb(248, 248, 128), rgb(255, 244, 212));
+}
+
+/*Homepage*/
+.title{
+    font-size: 90px;
+    padding-top: 120px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    border: none;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+#note{
+    opacity: 50%;
+}
+
+#paper{
+    text-align: center;
+}
+
+.lttr{
+    border: 2px;
+    padding: 10px 15px;
+    background-color: #feffcf;
+    display: inline-block;
+    color: rgb(97, 75, 5);
+    text-decoration: none;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.lttr:hover{
+    background-color: #fcff57;
+}
+
+/*Letter*/
+#submit{
+    border: 2px;
+    padding: 10px 15px;
+    background-color: #feffcf;
+    display: inline-block;
+    color: rgb(97, 75, 5);
+    text-decoration: none;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+#submit:hover{
+    background-color: #ffd54a;
+}
+
+#submit:disabled {
+    opacity: .7;
+    cursor: not-allowed;
+
+}
+.page{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+#today{
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+
+#text{
+    width: 500px;
+    height: 350px;
+    background-color: #fdff95;
+    opacity: 85%;
+    outline: 0px;
+    font-size: 24px;
+    border-radius: 12px;
+    padding: 15px;
+    transition: .3s;
+    resize: none;
+    margin-top: 0px;
+    margin-bottom: 2%;
+}
+
+#text:focus {
+    border: 1px solid #6F4E37;
+    transform: scale(1.01);
+}
+
+label{
+    text-align: left;
+    display: block;
+    margin-left: 50px;
+}
+
+#who{
+    font-size: 32px;
+    opacity: 70%;
+}
+
+#Letter{
+    font-size: 26px;
+    padding-bottom: 0px;
+    padding-top: 12px;
+    opacity: 70%;
+    margin-bottom: 0px;
+}
+
+#title{
+    text-align: left;
+    background-color: hsla(49, 100%, 77%, 0.906);
+    opacity: 85%;
+    outline: 0px;
+    font-size: 27px;
+    margin-left: 60px;
+    display: block;
+    outline: 0px;
+    border: 1px solid rgb(97, 75, 5);
+    width: 350px;
+    padding: 5px;
+}
+
+#counter{
+    opacity: 70%;
+}
+
+/*Thank You CSS*/
+
+.thx{
+    font-size: 90px;
+    padding-top: 120px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/*prompt*/
+#id{
+    
+}
+
+.prompt-box {
+    background-color: #7c4e0d;
+    margin-left: 50px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    width: 500px;
+    align-items: center;
+    color: #fdff95;
+    font-size: 32px;
+}
+
+.prompt-title {
+    font-weight: bold;
+    color: #fffeb8;
+    margin-bottom: 8px;
+}
+
+#prompt {
+    font-style: italic;
+    color: #fff2aa;
+}
+
+
+
+/* Animation hehe */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.title {
+    animation: float 4s ease-in-out infinite;
+}
+
+.subtitle {
+    animation: float 8s ease-in-out infinite;
+}
